@@ -1,5 +1,5 @@
-import {ArchiveReader} from './archive-reader';
-import {getWasmModule} from './wasm-module'; 
+import { ArchiveReader } from './archive-reader.js';
+import { getWasmModule } from './wasm-module.js';
 
 let reader = null;
 let busy = false;
